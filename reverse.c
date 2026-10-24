@@ -7,7 +7,7 @@ int main () {
     while(n>0)
     {
         rem= n%10;
-        printf("%d\n", rem);
+        printf("%d", rem);
         n=n/10;
     }
     return 0;
